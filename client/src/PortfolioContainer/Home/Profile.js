@@ -1,4 +1,5 @@
 import React from 'react'
+import Typical from 'react-typical'
 
 export default function 
 () {
@@ -22,6 +23,33 @@ export default function
                     <a href="#">
                         <i className='fa fa-github'></i>
                     </a>
+                </div>
+                <div className='profile-details-name'>
+                    <span className='primary-text highlighted-text'>
+                        {" "}
+                        Kiprotich Davis
+                    </span>
+                </div>
+                <div className='profile-details-role'>
+                    <span className='primary-text'>
+                        {" "}
+                        <h1>
+                            {" "}
+                            <Typical 
+                            loop={Infinity}
+                            steps={[
+                                "Front End Developer",
+                                1000,
+                                "React Developer",
+                                1000,
+                                "Electrical Engineer",
+                                1000,
+                                "Telecommunications Engineer",
+                                1000,
+                            ]}
+                            />
+                        </h1>
+                    </span>
                 </div>
             </div>
         </div>
