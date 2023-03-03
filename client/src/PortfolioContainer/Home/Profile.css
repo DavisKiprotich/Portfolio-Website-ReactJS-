@@ -25,6 +25,10 @@
     font-size: 24px;
     font-family: cursive;
 }
+.profile-details-tagline{
+    font-size: 18px;
+    font-family: Bungee;
+}
 .primary-text{
     color:(--white);
 }
@@ -70,4 +74,60 @@
 }
 .cols .cols-icon i:hover{
     transform: scale(1.5)
+}
+
+@media screen and (max-width: 1110px){
+    .profile-details-name{
+        font-size: 26px;
+    }
+    .profile-details-role .primary-text{
+        font-size: 12px;
+    }
+    .profile-options .btn{
+        margin: 11px 0;
+        width:120px;
+        z-index: 700;
+    }
+}
+@media screen and (max-width: 910px){
+    .profile-picture{
+        width: 320px;
+        height: 320px;
+        margin: 0 0 0 4px;
+    }
+}
+@media screen and (max-width: 810px){
+    .profile-picture{
+        margin: 0 !important;
+    }
+    .profile-parent{
+        margin: 40px 0 0 0;
+        flex-direction: column-reverse;
+    }
+    .profile-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-details{
+        margin: 24px 0 0;
+    }
+    .profile-details, .profile-details-role{
+        text-align: center;
+    }
+    .profile-options .highlighted-btn{
+        margin: 0 !important;
+    }
+}
+@media screen and (max-width: 375px){
+    .profile-picture{
+        width: 275px;
+        height: 275px;
+        margin-top: -90px;
+    }
+    .profile-details{
+        width: 90%;
+    }
+    .profile-details-tagline{
+        font-size: 14px;
+    }
 }

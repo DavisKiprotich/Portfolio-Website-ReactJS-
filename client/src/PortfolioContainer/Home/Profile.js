@@ -20,7 +20,7 @@ export default function
                             <i className='fa fa-twitter square'></i>
                         </a>
                         <a href="#">
-                            <i className='fa fa-linked '></i>
+                            <i className='fa fa-linkedin-square '></i>
                         </a>
                         <a href="#">
                             <i className='fa fa-github square'></i>
@@ -52,6 +52,9 @@ export default function
                             ]}
                             />
                         </h1>
+                    </span>
+                    <span className='profile-details-tagline'>
+                        <h2>Feel the Fear and Do it anyway</h2>
                     </span>
                     <span className="profile-options">
                         <button className="btn primary-btn">
