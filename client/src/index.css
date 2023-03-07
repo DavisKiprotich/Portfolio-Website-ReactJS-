@@ -60,7 +60,7 @@ body {
   overflow-y: overlay;
   font-family: "Poppins Regular";
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.7;
 }
 
 code {
@@ -87,12 +87,28 @@ body ::-webkit-scrollbar-thumb {
 }
 
 .btn {
-  border-radius: 50px;
-  padding: 14px 0;
-  width: 160px;
+  display: inline-block;
+  border-radius: 0.4rem;
+  padding: 0.75rem 1.2rem;
+  width: max-content;
   cursor: pointer;
-  transition: 0.2s;
+  transition: var(--transition);
   font-family: "Poppins SemiBold";
+}
+
+.btn:hover{
+  background: var(--color-primary);
+  color: var(--color-bg);
+  border-color: transparent;
+}
+.btn-primary{
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
 }
 
 .btn:active {
@@ -105,12 +121,48 @@ body ::-webkit-scrollbar-thumb {
   font-size: 12px;
   background-color: #1f2235;
 }
-/* @media only screen and (max-width: 414px) {
-  .primary-btn {
-    font-size: 13px;
-  }
-} */
 
+
+/* ----------------GENERAL STYLES--------------*/
+.container{
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5{
+  font-weight: 500;
+}
+h1{
+  font-size: 2.5rem;
+}
+section{
+  margin-top: 8rem;
+}
+section > h1, section > h5 {
+  text-align: center;
+  color: var(--color-light);
+}
+section > h2{
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
+
+.text-light{
+  color: var(--color-light);
+}
+a{
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+a:hover{
+  color: var(--color-white);
+}
+
+@media only screen and (max-width: 568px) {
+  .highlighted-btn {
+    z-index: -900;
+  }
+}
 .primary-btn:hover {
   color: aliceblue;
   border: 2px solid #1929fc;
@@ -123,11 +175,6 @@ body ::-webkit-scrollbar-thumb {
   font-size: 12px;
   background-color: #1929fc;
 }
-@media only screen and (max-width: 568px) {
-  .highlighted-btn {
-    z-index: -900;
-  }
-}
 
 .red-border {
   border: 1px solid var(--error-message) !important;
@@ -137,4 +184,21 @@ body ::-webkit-scrollbar-thumb {
   opacity: 0;
   transform: translateY(80px);
   transition: all 0.8s ease;
+}
+/*---------------MEDIA QUERIES--------------*/
+@media screen and (max-width: 1024px) {
+  .container{
+    width: var(--container-width-md);
+  }
+  section{
+    margin-top: 6rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container{
+    width: var(--container-width-sm);
+  }
+  section > h2{
+    margin-bottom: 2rem;
+  }
 }
