@@ -71,7 +71,8 @@ body {
   }
   section{
     margin-top: 8rem;
-    height: 50vh;
+    /*height: 100vh;*/
+    height: 200;
   }
   section > h1, section > h5 {
     text-align: center;
