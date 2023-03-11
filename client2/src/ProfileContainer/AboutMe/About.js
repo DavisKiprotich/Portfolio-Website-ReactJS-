@@ -8,6 +8,7 @@ import {GiOpenFolder} from 'react-icons/gi'
 const About = () => {
   return (
     <section id="about">
+    <h2>About Me</h2>
         <div className='about-container'>
           <div className='about-me'>
             <div className='about-me-image'>
@@ -24,9 +25,7 @@ const About = () => {
                 <article className='about-card'>
                   <GiSwordsPower className='about-icon'/>
                   <h5>Skills</h5>
-                  <small>Web Design and Development</small>
-                  <small>Electrical Engineering</small>
-                  <small>Communication Networking</small>
+                  <small>4+ Gained</small>
                 </article>
               <article className='about-card'>
                 <GiOpenFolder className='about-icon'/>
