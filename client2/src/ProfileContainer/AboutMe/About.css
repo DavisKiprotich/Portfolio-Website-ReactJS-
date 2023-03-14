@@ -1,7 +1,8 @@
 .about-container{
     display: grid;
-    grid-template-columns: 20% 60%;
+    grid-template-columns: 25% 60%;
     gap: 15%;
+    scroll-behavior: smooth;
 }
 h2{
     display: flex;
@@ -13,17 +14,15 @@ h2{
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-bg), transparent);
     display: grid;
     place-items: center;
 }
-.about-me-image{
-    border-radius: 2rem;
-    overflow: hidden;
-}
+
 .about-me-image img{
     margin:3rem 0 0 3rem;
     padding-left: 5px;
+    border-radius: 2rem;
+    overflow: hidden;
 }
 .about-cards{
     display: grid;

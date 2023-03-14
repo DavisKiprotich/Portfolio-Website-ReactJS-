@@ -1,6 +1,15 @@
 import React from 'react'
 import './Experience.css'
-import {BsPatchCheckFill} from 'react-icons/bs'
+import {AiOutlineHtml5l} from 'react-icons/ai'
+import {GiPaintRoller} from 'react-icons/gi'
+import {TbBrandJavascript} from 'react-icons/tb'
+import {FaBootstrap} from 'react-icons/fa'
+import {SiTailwindcss} from 'react-icons/si'
+import {FaReact} from 'react-icons/fa'
+import {MdOutlineElectricalServices} from 'react-icons/md'
+import {FcElectricalSensor} from 'react-icons/fc'
+import {AiOutlineAudit} from 'react-icons/ai'
+import {GrVmMaintenance} from 'react-icons/gr'
 
 const Experience = () => {
   return (
@@ -12,60 +21,80 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className='experience-content'>
             <article className='experience-details'>
-              <BsPatchCheckFill />
-              <h4>HTML</h4>
-              <small className='text-light'>Experienced</small>
+              <AiOutlineHtml5 />
+              <div>
+                <h4>HTML</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
             <article className='experience-details'>
-              <BsPatchCheckFill />
-              <h4>CSS</h4>
-              <small className='text-light'>Intermediate</small>
+              <GiPaintRoller />
+              <div>
+                <h4>CSS</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
             <article className='experience-details'>
-              <BsPatchCheckFill />
-              <h4>JavaScript</h4>
-              <small className='text-light'>Intermediate</small>
+              <TbBrandJavascript />
+              <div>
+                <h4>JavaScript</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
             <article className='experience-details'>
-              <BsPatchCheckFill />
-              <h4>Bootstrap</h4>
-              <small className='text-light'>Beginner</small>
+              <FaBootstrap />
+              <div>
+                <h4>Bootstrap</h4>
+                <small className='text-light'>Beginner</small>
+              </div>
             </article>
             <article className='experience-details'>
-              <BsPatchCheckFill />
-              <h4>Tailwind</h4>
-              <small className='text-light'>Beginner</small>
+              <SiTailwindcss />
+              <div>
+                <h4>Tailwind</h4>
+                <small className='text-light'>Beginner</small>
+              </div>
             </article>
             <article className='experience-details'>
-              <BsPatchCheckFill />
-              <h4>React</h4>
-              <small className='text-light'>Intermediate</small>
+              <FaReact />
+              <div>
+                <h4>React</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
           </div>
         </div>
-        
+
         <div className='experience-electrical'>
           <h3>Electrical Engineering</h3>
           <div className='experience-content'>
             <article className='experience-details'>
-              <BsPatchCheckFill />
-              <h4>Installation</h4>
-              <small className='text-light'>Experienced</small>
+              <MdOutlineElectricalServices />
+              <div>
+                <h4>Installation</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
             <article className='experience-details'>
-              <BsPatchCheckFill />
-              <h4>Design</h4>
-              <small className='text-light'>Beginner</small>
+              <FcElectricalSensor />
+              <div>
+                <h4>Design</h4>
+                <small className='text-light'>Beginner</small>
+              </div>
             </article>
             <article className='experience-details'>
-              <BsPatchCheckFill />
-              <h4>Audit</h4>
-              <small className='text-light'>Intermediate</small>
+              <AiOutlineAudit />
+              <div>
+                <h4>Audit</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
             <article className='experience-details'>
-              <BsPatchCheckFill />
-              <h4>Maintenance</h4>
-              <small className='text-light'>Intermediate</small>
+              <GrVmMaintenance />
+              <div>
+                <h4>Maintenance</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
           </div>
         </div>
