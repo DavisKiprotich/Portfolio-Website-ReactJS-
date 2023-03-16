@@ -48,7 +48,7 @@ const Services = () => {
             </li>
             <li>
               <GiCheckMark />
-              <p>Nanage and support network infrastructures and connections between clients</p>
+              <p>Manage and support network infrastructures and connections between clients</p>
             </li>
           </ul>
         </article>
