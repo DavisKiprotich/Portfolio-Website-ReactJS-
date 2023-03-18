@@ -16,9 +16,10 @@
     cursor: default;
 }
 .service-head h3{
-    color: var(--color-bg);
+    color: var(--color-primary);
     font-size: 1rem;
     text-align: center;
+    margin-top: 1rem;
 }
 .service-list{
     padding: 2rem;

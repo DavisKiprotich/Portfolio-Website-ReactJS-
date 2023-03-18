@@ -6,7 +6,7 @@ const Services = () => {
     <section id='services'>
       <h2>Services</h2>
       <div className='services-container'>
-        <article class='service'>
+        <article className='service'>
           <div className='service-head'>
             <h3>Front-end Web Design</h3>
           </div>
@@ -29,7 +29,7 @@ const Services = () => {
             </li>
           </ul>
         </article>
-        <article class='service'>
+        <article className='service'>
           <div className='service-head'>
             <h3>Cloud Engineering services</h3>
           </div>
@@ -52,7 +52,7 @@ const Services = () => {
             </li>
           </ul>
         </article>
-        <article class='service'>
+        <article className='service'>
           <div className='service-head'>
             <h3>Electrical Engineering</h3>
           </div>

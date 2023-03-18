@@ -35,8 +35,9 @@
     display: flex;
     gap: 1rem;
 }
-.experience-details > h4{
+.experience-details h4{
     font-weight: 300;
+    font-family: cursive;
 }
 /*-------------MEDIA QUERIES-----------*/
 @media screen and (max-width: 1024px){

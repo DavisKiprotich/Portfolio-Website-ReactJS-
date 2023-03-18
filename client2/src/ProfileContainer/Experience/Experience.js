@@ -1,6 +1,6 @@
 import React from 'react'
 import './Experience.css'
-import {AiOutlineHtml5l} from 'react-icons/ai'
+import {AiOutlineHtml5} from 'react-icons/ai'
 import {GiPaintRoller} from 'react-icons/gi'
 import {TbBrandJavascript} from 'react-icons/tb'
 import {FaBootstrap} from 'react-icons/fa'

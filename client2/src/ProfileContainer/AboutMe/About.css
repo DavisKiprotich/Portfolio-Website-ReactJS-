@@ -73,11 +73,12 @@ h2{
     }
 }
 @media screen and (max-width: 600px){
-    .about-me{
+    .about-container{
         width: 65%;
         margin: 0 auto 3rem;
+        display: flex;
     }
-    .about-me-image{
+    .about-me{
         display: none;
     }
     .about-cards{
