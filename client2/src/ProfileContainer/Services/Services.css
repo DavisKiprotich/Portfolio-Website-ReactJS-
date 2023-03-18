@@ -20,3 +20,34 @@
     font-size: 1rem;
     text-align: center;
 }
+.service-list{
+    padding: 2rem;
+}
+.service-list li{
+    display: flex;
+    gap: 0.9rem;
+    margin-bottom: 0.8rem;
+}
+.service-list-icon{
+    color: var(--color-primary);
+    margin-top: 2px;
+}
+.service-list p{
+    font-size: 0.9rem;
+}
+/*-------------MEDIA QUERIES-----------*/
+@media screen and (max-width: 1024px){
+    .services-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .service{
+        height: auto;
+    }
+}
+@media screen and (max-width: 600px){
+    .services-container{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}

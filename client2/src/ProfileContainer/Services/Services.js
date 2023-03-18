@@ -12,19 +12,19 @@ const Services = () => {
           </div>
           <ul className='service-list'>
             <li>
-              <GiCheckMark />
+              <GiCheckMark className='service-list-icon' />
               <p>Highly customizable web app with interactive and complex User Interfaces.</p>
             </li>
             <li>
-              <GiCheckMark />
+              <GiCheckMark className='service-list-icon' />
               <p>Create a dynamic, single-page web application</p>
             </li>
             <li>
-              <GiCheckMark />
+              <GiCheckMark className='service-list-icon' />
               <p>Build an easily scalable feature-rich web app that can grow up to an enterprise level.</p>
             </li>
             <li>
-              <GiCheckMark />
+              <GiCheckMark className='service-list-icon' />
               <p>Ensure responsive design and high performance across different devices and operating systems</p>
             </li>
           </ul>
@@ -35,19 +35,19 @@ const Services = () => {
           </div>
           <ul className='service-list'>
             <li>
-              <GiCheckMark />
+              <GiCheckMark className='service-list-icon' />
               <p>Migrate and modernize applications</p>
             </li>
             <li>
-              <GiCheckMark />
+              <GiCheckMark className='service-list-icon' />
               <p>Organize and optimize infrastructure and manage cost efficiently.</p>
             </li>
             <li>
-              <GiCheckMark />
+              <GiCheckMark className='service-list-icon' />
               <p>Maintaining the cloud infrastructure</p>
             </li>
             <li>
-              <GiCheckMark />
+              <GiCheckMark className='service-list-icon' />
               <p>Manage and support network infrastructures and connections between clients</p>
             </li>
           </ul>
@@ -58,23 +58,23 @@ const Services = () => {
           </div>
           <ul className='service-list'>
             <li>
-              <GiCheckMark />
+              <GiCheckMark className='service-list-icon' />
               <p>Installation of new electrical machines</p>
             </li>
             <li>
-              <GiCheckMark />
+              <GiCheckMark className='service-list-icon' />
               <p>Estimation and budeting of electrical machines</p>
             </li>
             <li>
-              <GiCheckMark />
+              <GiCheckMark className='service-list-icon' />
               <p>Design of single line electrical diagrams</p>
             </li>
             <li>
-              <GiCheckMark />
+              <GiCheckMark className='service-list-icon' />
               <p>Electrical checkout and start up</p>
             </li>
             <li>
-              <GiCheckMark />
+              <GiCheckMark className='service-list-icon' />
               <p>System trouble shooting</p>
             </li>
           </ul>
