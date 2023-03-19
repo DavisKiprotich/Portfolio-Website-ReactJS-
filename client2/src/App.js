@@ -5,6 +5,7 @@ import About from './ProfileContainer/AboutMe/About'
 import Experience from './ProfileContainer/Experience/Experience'
 import Services from './ProfileContainer/Services/Services'
 import Contact from './ProfileContainer/Contact/Contact'
+import Portfolio from './ProfileContainer/Portfolio/Portfolio'
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
         <About />
         <Experience />
         <Services />
+        <Portfolio />
         <Contact />
     </div>
     );
