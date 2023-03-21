@@ -4,8 +4,9 @@ import Nav from './ProfileContainer/Nav/Nav'
 import About from './ProfileContainer/AboutMe/About'
 import Experience from './ProfileContainer/Experience/Experience'
 import Services from './ProfileContainer/Services/Services'
-import Contact from './ProfileContainer/Contact/Contact'
 import Portfolio from './ProfileContainer/Portfolio/Portfolio'
+import Testimonial from './ProfileContainer/Testimonial/Testimonial'
+import Contact from './ProfileContainer/Contact/Contact'
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
         <Experience />
         <Services />
         <Portfolio />
+        <Testimonial />
         <Contact />
     </div>
     );
