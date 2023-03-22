@@ -9,19 +9,19 @@ const data = [
         id: 1,
         image: IMG1,
         title: 'My React app portfolio',
-        github: 'https://github.com/'
+        github: 'https://github.com/DavisKiprotich/Portfolio-Website-ReactJS-'
     },
     {
         id: 2,
         image: IMG2,
         title: 'Responsive E-commerce website',
-        github: 'https://github.com/'
+        github: 'https://github.com/DavisKiprotich/Ever-Trendy-website'
     },
     {
         id: 3,
         image: IMG3,
         title: 'Portfolio designed using HTML,CSS and JavaScript',
-        github: 'https://github.com/'
+        github: 'https://github.com/DavisKiprotich/Responsive-Portfolio-Website'
     }
 ]
 
@@ -33,15 +33,17 @@ const Portfolio = () => {
         <div className='portfolio-container'>
             {
                 data.map(({id, image, title, github}) => {
-                    <article key={id} className='portfolio-item'>
-                        <div className='portfolio-item-image'>
-                            <img src={image} alt={title} />
-                        </div>
-                        <h3>{title}</h3>
-                        <div className='portfolio-item-tag'>
-                            <a href={github} className='btn' target='_blank'>Github</a>
-                        </div>
-                    </article>
+                    return(
+                        <article key={id} className='portfolio-item'>
+                            <div className='portfolio-item-image'>
+                                <img src={image} alt={title} />
+                            </div>
+                            <h3>{title}</h3>
+                            <div className='portfolio-item-tag'>
+                                <a href={github} className='btn' target='_blank'>Github</a>
+                            </div>
+                        </article>
+                    )                
                 })
             }
         </div>
