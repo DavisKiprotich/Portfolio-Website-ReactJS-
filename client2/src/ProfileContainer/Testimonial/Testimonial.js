@@ -9,7 +9,7 @@ const data = [
   {
       avatar: Avatar1,
       name: 'Emmanuel Ushindi',
-      review: ''
+      review: 'Your design was precisely what I had envisioned: clear, clean, and focused, with an emphasis on style features.'
   },
   {
       avatar: Avatar2,
