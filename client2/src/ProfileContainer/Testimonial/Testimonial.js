@@ -5,50 +5,70 @@ import Avatar2 from '../../Assets/portfolio4.jpg'
 import Avatar3 from '../../Assets/portfolio6.jpg'
 import Avatar4 from '../../Assets/portfolio6.jpg'
 
+// import Swiper core and required modules
+import { Navigation, Pagination } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+
+
 const data = [
   {
       avatar: Avatar1,
       name: 'Emmanuel Ushindi',
-      review: 'Your design was precisely what I had envisioned: clear, clean, and focused, with an emphasis on style features.'
+      review: 'Davis listened to all I wanted and required in a new website and then delivered! My new website is enjoyable, interesting, and simple to use for both myself and my clients.'
   },
   {
       avatar: Avatar2,
       name: 'Ramsey Korir',
-      review: ''
+      review: 'Your design was precisely what I had envisioned: clear, clean, and focused, with an emphasis on style features.'
   },
   {
       avatar: Avatar3,
       name: 'Lyn Memoi',
-      review: ''
+      review: 'My new website is everything that I wanted. I’ve already recommended you to another client.What I liked about your design was that you started with a strategy and then carried it through.'
   },
   {
       avatar: Avatar4,
       name: 'Vincent',
-      review: ''
+      review: 'I am delighted with my new website! It appears professional and simple to use.'
   }
 ]
+
 
 
 const Testimonial = () => {
   return (
     <section id='testimonial'>
         <h2>Testimonials</h2>
-        <div className='testimonial-container'>
+        <Swiper className='testimonial-container'
+        // install Swiper modules
+        modules={[Navigation, Pagination]}
+        spaceBetween={40}
+        slidesPerView={1}
+        navigation
+        pagination={{ clickable: true }}
+        onSlideChange={() => console.log('slide change')}>
           {
             data.map(({avatar, name, review}, index) => {
               return(
-                <article className='testimonial'>
+                <SwiperSlide className='testimonial'>
                   <div className='client-avatar'>
                       <img src={avatar} />    
                   </div>
                   <h5 className='client-name'>{name}</h5>
                   <small className='client-review'>{review}</small>
-                </article>
+                </SwiperSlide>
               )
             })
           }
           
-        </div>
+        </Swiper>
     </section>
   )
 }
