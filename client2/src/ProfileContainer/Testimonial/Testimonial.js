@@ -6,13 +6,12 @@ import Avatar3 from '../../Assets/portfolio6.jpg'
 import Avatar4 from '../../Assets/portfolio6.jpg'
 
 // import Swiper core and required modules
-import { Navigation, Pagination } from 'swiper';
+import { Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 
@@ -48,10 +47,9 @@ const Testimonial = () => {
         <h2>Testimonials</h2>
         <Swiper className='testimonial-container'
         // install Swiper modules
-        modules={[Navigation, Pagination]}
+        modules={[Pagination]}
         spaceBetween={40}
         slidesPerView={1}
-        navigation
         pagination={{ clickable: true }}
         onSlideChange={() => console.log('slide change')}>
           {
