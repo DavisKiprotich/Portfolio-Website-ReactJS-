@@ -49,6 +49,9 @@ input, textarea{
     resize: none;
     color: var(--color-white);
 }
+button:hover{
+    background: var(--color-light)
+}
 /*-------------MEDIA QUERIES-----------*/
 @media screen and (max-width: 1024px){
     .contact-container{
