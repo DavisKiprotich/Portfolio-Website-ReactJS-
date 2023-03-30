@@ -4,7 +4,7 @@ import { MdOutlineEmail } from 'react-icons/md'
 import { RiMessengerLine } from 'react-icons/ri'
 import { AiOutlineWhatsApp } from 'react-icons/ai'
 import { useRef } from 'react';
-import emailjs from '@emailjs.com';
+import emailjs from 'emailjs.com';
 
 const Contact = () => {
   const form = useRef();
@@ -12,8 +12,8 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-
+    emailjs.sendForm('service_go62km7', 'template_dob73if', form.current, 'xSIgkC2wVdKx17Bwv')
+    e.target.reset()
   };
 
   return (
