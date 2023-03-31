@@ -7,6 +7,7 @@ import Services from './ProfileContainer/Services/Services'
 import Portfolio from './ProfileContainer/Portfolio/Portfolio'
 import Testimonial from './ProfileContainer/Testimonial/Testimonial'
 import Contact from './ProfileContainer/Contact/Contact'
+import Footer from './ProfileContainer/Footer/Footer'
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
         <Portfolio />
         <Testimonial />
         <Contact />
+        <Footer />
     </div>
     );
   }
