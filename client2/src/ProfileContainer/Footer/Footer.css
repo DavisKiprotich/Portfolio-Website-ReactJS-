@@ -15,7 +15,9 @@ footer a{
     display: inline-block;
 }
 .footer-logo:hover{
-    background: var(--color-white);
+    background: var(--color-bg);
+    color: var(--color-light);
+    border-radius: 0.5rem;
 }
 .permalinks{
     display: flex;
