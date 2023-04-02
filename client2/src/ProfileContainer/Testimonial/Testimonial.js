@@ -1,9 +1,9 @@
 import React from 'react'
 import './Testimonial.css'
 import Avatar1 from '../../Assets/Ushindi.jpeg'
-import Avatar2 from '../../Assets/portfolio4.jpg'
-import Avatar3 from '../../Assets/portfolio6.jpg'
-import Avatar4 from '../../Assets/portfolio6.jpg'
+import Avatar2 from '../../Assets/Ramsey.jpeg'
+import Avatar3 from '../../Assets/Memo.jpg'
+import Avatar4 from '../../Assets/Nicho.jpg'
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
@@ -30,11 +30,11 @@ const data = [
   {
       avatar: Avatar3,
       name: 'Lyn Memoi',
-      review: 'My new website is everything that I wanted. I’ve already recommended you to another client.What I liked about your design was that you started with a strategy and then carried it through.'
+      review: 'My new website is everything that I wanted.What I liked about your design was that you started with a strategy and then carried it through.'
   },
   {
       avatar: Avatar4,
-      name: 'Vincent',
+      name: 'Nicholas',
       review: 'I am delighted with my new website! It appears professional and simple to use.'
   }
 ]
