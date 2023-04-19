@@ -37,7 +37,7 @@ const Contact = () => {
           <AiOutlineWhatsApp className='contact-option-icon' />
           <h4>Whatsapp</h4>
           <h5>Humble Beast</h5>
-          <a href='https://api.whatsapp.com/send?phone=+254705013074' target='_blank'>Send a message</a>
+          <a href='https://api.whatsapp.com/send?phone=+254727111264' target='_blank'>Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
