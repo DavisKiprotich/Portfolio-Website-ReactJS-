@@ -31,7 +31,7 @@ const Experience = () => {
               <GiPaintRoller />
               <div>
                 <h4>CSS</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience-details'>
@@ -52,7 +52,7 @@ const Experience = () => {
               <SiTailwindcss />
               <div>
                 <h4>Tailwind</h4>
-                <small className='text-light'>Beginner</small>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience-details'>
