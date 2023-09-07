@@ -31,7 +31,7 @@ const Services = () => {
         </article>
         <article className='service'>
           <div className='service-head'>
-            <h3>Cloud Engineering services</h3>
+            <h3>Cloud Engineering</h3>
           </div>
           <ul className='service-list'>
             <li>

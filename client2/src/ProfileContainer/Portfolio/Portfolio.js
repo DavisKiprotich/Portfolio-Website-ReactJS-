@@ -3,6 +3,7 @@ import "./Portfolio.css";
 import IMG1 from "../../Assets/portfolio3.jpg";
 import IMG2 from "../../Assets/portfolio1.jpg";
 import IMG3 from "../../Assets/portfolio2.jpg";
+import IMG4 from "../../Assets/portfolio2.jpg";
 
 const data = [
   {
@@ -29,7 +30,7 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: "React Calculator",
+    title: "Todo List",
     github: "https://github.com/DavisKiprotich/Responsive-Portfolio-Website",
     demo: ''
   },
