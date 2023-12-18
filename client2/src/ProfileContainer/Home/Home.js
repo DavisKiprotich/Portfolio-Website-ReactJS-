@@ -48,7 +48,7 @@ export default function () {
                       1000,
                       "Electrical Engineer",
                       1000,
-                      "Cloud and Network Engineering Enthusiast",
+                      "Cloud Engineering Enthusiast",
                       1000,
                     ]}
                   />
