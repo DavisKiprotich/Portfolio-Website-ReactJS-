@@ -33,7 +33,7 @@ const About = () => {
                 <small> 3+ Completed</small>
               </article>
             </div>
-            <p>I am an adaptable professional who has been consistently praised as hardworking and consistent by my co-workers and management.Over the course of my career, I have developed a skill set directly relevant to the role you are hiring for,including website development and design,electrical design,electrical installation and maintenance and telecommunications. </p>
+            <p>I am a seasoned Front End Developer with over 2 years of expertise in crafting visually appealing and user-friendly web applications. Proficient in frameworks like React and Next.js, I seamlessly integrate with backend technologies such as Django and Node.js. My skills extend to HTML, CSS, JavaScript and Wordpress ensuring clean, efficient, and well-documented code. With a keen eye for detail and a commitment to high-quality work, I actively contribute to cross-functional teams, bringing innovative solutions to complex problems. My dynamic skill set extends to website development, emphasizing adaptability, effective communication, and continuous improvement within the Engineering team. </p>
             <a href='#contact' className='btn btn-primary'>Let's Talk</a>
           </div>
         </div>

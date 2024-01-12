@@ -17,8 +17,8 @@ export default function () {
                 <a href="https://www.instagram.com/">
                   <i className="fa fa-instagram square"></i>
                 </a>
-                <a href="https://www.twitter.com/">
-                  <i className="fa fa-twitter square"></i>
+                <a href="https://x.com/werigan_non/">
+                <i class="fa-brands fa-x-twitter"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/davis-kiprotich-652b49243/">
                   <i className="fa fa-linkedin-square "></i>
@@ -64,7 +64,7 @@ export default function () {
                 </button>
                 <a
                   href="Kiprotich Davis Official.docx"
-                  download="Kiprotich Davis Official.docx"
+                  download="KIPROTICH DAVIS-Intergrated.docx"
                 >
                   <button className="btn highlighted-btn">Download My Resume</button>
                 </a>

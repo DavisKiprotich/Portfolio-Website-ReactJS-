@@ -59,7 +59,7 @@ body {
     line-height: 1.7;
     background: var(--color-bg);
     color:var(--color-white);
-    background:url(../src/Assets/bg.jpg)
+    background:url(../src/Assets/leather.jpeg)
 }
 /* ----------------GENERAL STYLES--------------*/
 .container{
