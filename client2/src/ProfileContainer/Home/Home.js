@@ -1,6 +1,7 @@
 import React from "react";
 import Typical from "react-typical";
 import "./Home.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 /* eslint import/no-anonymous-default-export: [2, {"allowAnonymousFunction": true}] */
 export default function () {
@@ -18,7 +19,7 @@ export default function () {
                   <i className="fa fa-instagram square"></i>
                 </a>
                 <a href="https://x.com/werigan_non/">
-                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-x-twitter"> <FontAwesomeIcon icon={faXTwitter} /></i>
                 </a>
                 <a href="https://www.linkedin.com/in/davis-kiprotich-652b49243/">
                   <i className="fa fa-linkedin-square "></i>

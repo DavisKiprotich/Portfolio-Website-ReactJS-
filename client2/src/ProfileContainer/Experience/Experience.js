@@ -45,13 +45,13 @@ const Experience = () => {
               <FaBootstrap />
               <div>
                 <h4>Bootstrap</h4>
-                <small className='text-light'>Beginner</small>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience-details'>
               <SiTailwindcss />
               <div>
-                <h4>Tailwind</h4>
+                <h4>Tailwind CSS</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
@@ -59,7 +59,7 @@ const Experience = () => {
               <FaReact />
               <div>
                 <h4>React</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
           </div>

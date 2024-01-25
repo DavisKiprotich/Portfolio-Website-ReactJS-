@@ -7,7 +7,7 @@ import {IoLogoFacebook} from 'react-icons/io'
 const Footer = () => {
   return (
     <footer>
-      <a href='#home' className='footer-logo'>Humble Beast</a>
+      <a href='#home' className='footer-logo'>Kiprotich Davis</a>
 
       <ul className='permalinks'>
         <li><a href='#home'>Home</a></li>
