@@ -66,7 +66,7 @@ export default function () {
                   <a href="#contact">Hire Me </a>
                 </button>
                 <a
-                  href="Kiprotich Davis Official.docx"
+                  href="Kiprotich davis cyber.pdf"
                   download="Kiprotich davis cyber.pdf"
                 >
                   <button className="btn highlighted-btn">Download My Resume</button>
