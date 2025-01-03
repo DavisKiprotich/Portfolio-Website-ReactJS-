@@ -45,11 +45,13 @@ export default function () {
                     steps={[
                       "Front End Developer",
                       1000,
-                      "React Developer",
+                      "Networking Engineer",
                       1000,
                       "Electrical Engineer",
                       1000,
                       "Cloud Engineering Enthusiast",
+                      1000,
+                      "Penetration Tester",
                       1000,
                     ]}
                   />
