@@ -32,6 +32,8 @@
     --color-primary:#4db5ff;
     --color-primary-variant:rgba(77, 181, 255, 0.4);
     --color-white: #fff;
+    /* --primary-color: #edf2f8; */
+    --secondary-color: #313bac;
     --color-light: rgba(255, 255, 255, 0.6);
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -58,6 +60,15 @@ body {
     background:url(../src/Assets/leather.jpeg)
 }
 /* ----------------GENERAL STYLES--------------*/
+.App{
+  background-color: var(--primary-color);
+}
+.App_whitebg{
+  background-color: var(--color-white);
+}
+.App_priimarybg{
+  background-color: var(--primary-color);
+}
 .container{
     width: var(--container-width-lg);
     margin: 0 auto;
