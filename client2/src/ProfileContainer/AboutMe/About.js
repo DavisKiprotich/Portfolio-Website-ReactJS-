@@ -20,20 +20,20 @@ const About = () => {
               <article className='about-card'>
                 <MdOutlineWorkHistory className='about-icon'/>
                 <h5>Experience</h5>
-                <small> -1 year Working</small>
+                <small> +2 years Working</small>
                 </article>
                 <article className='about-card'>
                   <GiSwordsPower className='about-icon'/>
                   <h5>Skills</h5>
-                  <small>4+ Gained</small>
+                  <small>10+ Gained</small>
                 </article>
               <article className='about-card'>
                 <GiOpenFolder className='about-icon'/>
                 <h5>Projects</h5>
-                <small> 3+ Completed</small>
+                <small> 8+ Completed</small>
               </article>
             </div>
-            <p>I am an adaptable professional who has been consistently praised as hardworking and consistent by my co-workers and management.Over the course of my career, I have developed a skill set directly relevant to the role you are hiring for,including website development and design,electrical design,electrical installation and maintenance and telecommunications. </p>
+            <p>I am a seasoned Front End Developer with over 2 years of expertise in crafting visually appealing and user-friendly web applications. Proficient in frameworks like React and Next.js, I'm integrating Kubernetes for orchestration, Jenkins for CI/CD, and Docker for containerization. I've automated infrastructure with Ansible, managed cloud resources on AWS using CloudFormation, and scripted with Bash. I monitor applications with Prometheus, and secure them through ethical hacking practices on Kali Linux. This roadmap showcases my ability to blend frontend expertise with backend and DevOps skills for comprehensive project development.</p>
             <a href='#contact' className='btn btn-primary'>Let's Talk</a>
           </div>
         </div>

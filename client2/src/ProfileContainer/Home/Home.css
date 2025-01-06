@@ -80,7 +80,8 @@
     padding-left: 0px;
 }
 .cols .cols-icon i:hover{
-    transform: scale(1.5)
+    transform: scale(1.5);
+    color: var(--light-blue)
 }
 
 /*--------MEDIA QUERIES--------------*/

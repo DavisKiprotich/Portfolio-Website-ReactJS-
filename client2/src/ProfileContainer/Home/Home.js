@@ -1,6 +1,8 @@
 import React from "react";
 import Typical from "react-typical";
 import "./Home.css";
+import CV from "../../Assets/Kiprotich_davis_cyber.pdf"
+
 
 /* eslint import/no-anonymous-default-export: [2, {"allowAnonymousFunction": true}] */
 export default function () {
@@ -17,8 +19,8 @@ export default function () {
                 <a href="https://www.instagram.com/">
                   <i className="fa fa-instagram square"></i>
                 </a>
-                <a href="https://www.twitter.com/">
-                  <i className="fa fa-twitter square"></i>
+                <a href="https://x.com/werigan_non/">
+                <i className="fa-brands fa-x-twitter"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/davis-kiprotich-652b49243/">
                   <i className="fa fa-linkedin-square "></i>
@@ -44,11 +46,13 @@ export default function () {
                     steps={[
                       "Front End Developer",
                       1000,
-                      "React Developer",
+                      "Networking Engineer",
                       1000,
                       "Electrical Engineer",
                       1000,
                       "Cloud Engineering Enthusiast",
+                      1000,
+                      "Ethical Hacking Enthusiast",
                       1000,
                     ]}
                   />
@@ -63,8 +67,8 @@ export default function () {
                   <a href="#contact">Hire Me </a>
                 </button>
                 <a
-                  href="Kiprotich Davis Official.docx"
-                  download="Kiprotich Davis Official.docx"
+                  href={CV}
+                  download
                 >
                   <button className="btn highlighted-btn">Download My Resume</button>
                 </a>
